@@ -15,7 +15,6 @@ Convert temperatures between Celsius and Fahrenheit with this simple web applica
 - **index.html**: The HTML file containing the structure of the temperature conversion form.
 - **style.css**: The CSS file for styling the elements in the application.
 - **main.js**: The JavaScript file containing the logic for temperature conversion.
-- **LICENSE.md**: The license file (You can replace this with the actual license file you choose).
 
 Feel free to fork and modify this project according to your needs. If you encounter any issues or have suggestions for improvements, please open an issue.
 
