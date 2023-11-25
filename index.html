@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Convert Temperature</title>
+</head>
+<body>
+    <form id="tempCalc" onsubmit="TemperatureCalc(); return false">
+         <label for="temp">Enter Temperature that you'd like to convert</label>
+         <br/>
+         <input type="number" name="temp" id="temp">
+
+         <select name="temp_diff" id="temp_diff">
+         <option value="cel">°Celsius</option>
+         <option value="fah">°Fahrenheit</option>
+        </select><br/>
+
+        <input type="submit" name="temp"><br/>
+        <span id="resultContainer"></span>
+    </form>
+</body>
+<script src="main.js"></script>
+</html>
